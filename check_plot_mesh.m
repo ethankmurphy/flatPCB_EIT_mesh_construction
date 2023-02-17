@@ -32,11 +32,7 @@ addpath S:\digihisto\Ethan\software\distmesh
 
 %--------------------------------------------------------------------------
 % Pick the electrode boundaries of interest
-% [file,path] = uigetfile('*.MAT');
-path = 'S:\digihisto\Ethan\Githubs\mesh_flat_elec_array_from_STL\CAD_elecbounds\';
-% path = '/jumbo/digihisto/Ethan/Githubs/mesh_flat_elec_array_from_STL/CAD_elecbounds/';
-file = 'elec_bnds_Electrode_Array_8ch_9o5mm_v1.mat'
-% file = 'elec_bnds_sarcopenia_US_EIT_Electrode_Array.mat'
+[file,path] = uigetfile('*.MAT');
 
 %--------------------------------------------------------------------------
 % Construct the outersurface
